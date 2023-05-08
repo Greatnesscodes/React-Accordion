@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Clash Display', sans-serif;
+}
+body{
+  background-color: #000;
+  color: #ffbb01;
+}
+.container{
+  padding: 3rem;
+}
+.faq{
+  margin: 2rem 0;
+}
+.accordion {
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  max-width: 60vw;
+  font-size: large;
+}
+
+.accordion-header {
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-header:hover {
+  background-color: #e6e6e6;
+}
+
+.accordion-header.open {
+  background-color: #e6e6e6;
+}
+
+.accordion-content {
+  padding: 10px;
+  font-weight: 300;
+}
